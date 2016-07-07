@@ -1,0 +1,29 @@
+{
+  "name": "omnitool",
+  "version": "1.0.0",
+  "description": "Multiplexed local devtools",
+  "main": "index.js",
+  "scripts": {
+    "deps": "dependency-check . && dependency-check . --extra --no-dev",
+    "test": "standard && npm run deps && NODE_ENV=test node test",
+    "test:cov": "standard && npm run deps && NODE_ENV=test istanbul cover test.js"
+  },
+  "repository": "yoshuawuyts/omnitool",
+  "keywords": [
+    "devtool",
+    "chrome",
+    "choo",
+    "server",
+    "dev",
+    "tooling",
+    "size"
+  ],
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "dependency-check": "^2.5.1",
+    "istanbul": "^0.4.4",
+    "standard": "^7.1.2",
+    "tape": "^4.6.0"
+  }
+}
