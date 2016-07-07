@@ -2,22 +2,11 @@
 [![npm version][2]][3] [![build status][4]][5] [![test coverage][6]][7]
 [![downloads][8]][9] [![js-standard-style][10]][11]
 
-Multiplexed local devtools.
+Multiplexed Developer Tools. Not a lot to see here yet. Forked from
+[cyclejs/devtool](https://github.com/cyclejs/devtool) for now.
 
-## Usage
-```js
-const omnitool = require('omnitool')
-
-omnitool()
-```
-
-## API
-### omnitool
-
-## Installation
-```sh
-$ npm install omnitool
-```
+## See Also
+- [cyclejs/devtool](https://github.com/cyclejs/devtool)
 
 ## License
 [MIT](https://tldrlegal.com/license/mit-license)

@@ -1,7 +1,7 @@
 {
   "name": "omnitool",
   "version": "1.0.0",
-  "description": "Multiplexed local devtools",
+  "description": "Multiplexed Local DevTools",
   "main": "index.js",
   "scripts": {
     "deps": "dependency-check . && dependency-check . --extra --no-dev",

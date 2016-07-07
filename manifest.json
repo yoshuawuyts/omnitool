@@ -1,16 +1,17 @@
 {
   "name": "Omnitool",
   "version": "1.0.0",
-  "description": "Omnitool multiplexed dev tools",
+  "description": "Omnitool Multiplexed DevTools",
   "devtools_page": "launcher.html",
+  "icons": { "128": "128.png" },
   "background": {
-    "scripts": [ "background.js" ],
+    "scripts": ["background.js"],
     "persistent": false
   },
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["contentscript.js"],
+      "js": ["contentScript.js"],
       "run_at": "document_end",
       "all_frames": true
     }
